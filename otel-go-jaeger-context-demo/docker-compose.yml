@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  service-a:
+    build: ./service-a
+    container_name: otel-service-a
+    ports:
+      - "8080:8080"
+    depends_on:
+      - otel-collector
+      - service-b
+
+  service-b:
+    build: ./service-b
+    container_name: otel-service-b
+    ports:
+      - "8081:8081"
+    depends_on:
+      - otel-collector
+
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:latest
+    container_name: otel-collector
+    command: ["--config=/etc/otel-collector-config.yaml"]
+    volumes:
+      - ./otel-collector-config.yaml:/etc/otel-collector-config.yaml:ro
+    ports:
+      - "4318:4318"
+
+  jaeger:
+    image: jaegertracing/all-in-one:1.58
+    container_name: jaeger
+    ports:
+      - "16686:16686"
+      - "14250:14250"
