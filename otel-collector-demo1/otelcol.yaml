@@ -1,0 +1,44 @@
+receivers:
+  hostmetrics:
+    collection_interval: 10s
+    scrapers:
+      cpu: {}
+      memory: {}
+      disk: {}
+      filesystem: {}
+      network: {}
+      load: {}
+
+processors:
+  batch: {}
+  resource:
+    attributes:
+      - key: service.name
+        value: "otelcol-hostmetrics-demo"
+        action: upsert
+      - key: deployment.environment
+        value: "demo"
+        action: upsert
+
+exporters:
+  prometheus:
+    endpoint: "0.0.0.0:8889"
+    resource_to_telemetry_conversion:
+      enabled: true
+
+  # otlphttp:
+  #   endpoint: "http://localhost:4318"
+  #   tls:
+  #     insecure: true
+
+  # Replaces deprecated logging exporter
+  debug:
+    verbosity: detailed
+
+service:
+  pipelines:
+    metrics:
+      receivers: [hostmetrics]
+      processors: [resource, batch]
+      exporters: [prometheus, debug]
+      # exporters: [prometheus, otlphttp, debug]
