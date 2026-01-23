@@ -69,3 +69,5 @@ This avoids deprecated exporter-side label mapping and prevents config decode er
 ```bash
 docker compose down
 ```
+
+Python app --> creates and expoert logs --> export to otel (otlp protocol) --> otel processes --> export to loki and debug 
