@@ -1,33 +1,46 @@
-version: "3.9"
-
 services:
   app:
     build: ./app
     container_name: otel-python-logs-app
+    environment:
+      - OTEL_EXPORTER_OTLP_LOGS_ENDPOINT=http://otel-collector:4318/v1/logs
+      - OTEL_SERVICE_NAME=python-otel-logs-demo
+      - APP_LOG_LEVEL=INFO
     depends_on:
       - otel-collector
-    # No ports exposed; it's just a log generator
+    restart: unless-stopped
 
   otel-collector:
-    image: otel/opentelemetry-collector-contrib:latest
+    image: otel/opentelemetry-collector-contrib:0.95.0
     container_name: otel-collector
     command: ["--config=/etc/otel-collector-config.yaml"]
     volumes:
       - ./otel-collector-config.yaml:/etc/otel-collector-config.yaml:ro
     ports:
-      - "4318:4318"
+      - "4318:4318"   # OTLP HTTP receiver
+    depends_on:
+      - loki
+    restart: unless-stopped
 
   loki:
-    image: grafana/loki:latest
+    image: grafana/loki:2.9.8
     container_name: loki
     ports:
       - "3100:3100"
     command: ["-config.file=/etc/loki/local-config.yaml"]
+    restart: unless-stopped
 
   grafana:
-    image: grafana/grafana:latest
+    image: grafana/grafana:10.4.3
     container_name: grafana
     ports:
       - "3000:3000"
     environment:
+      - GF_SECURITY_ADMIN_USER=admin
       - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_AUTH_ANONYMOUS_ENABLED=false
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+    depends_on:
+      - loki
+    restart: unless-stopped

@@ -1,69 +1,71 @@
-# OpenTelemetry Python Logs -> OTel Collector -> Loki Demo
+# OpenTelemetry Python Logs → OTel Collector → Loki → Grafana (WORKING DEMO)
 
-This demo shows how to send logs from a Python application using OpenTelemetry
-to an OpenTelemetry Collector, and then export them to Loki. Grafana is also
-included to visualize logs from Loki.
+This demo works even if your host Python is 3.14 because the Python app runs in Docker (Python 3.12).
 
-## Components
-
-- **app**: Python application using `logging` + OpenTelemetry logging bridge.
-- **otel-collector**: Receives OTLP logs and exports to Loki.
-- **loki**: Log storage and query backend.
-- **grafana**: UI to query logs from Loki.
-
-## How to Run
-
-1. Make sure you have Docker and Docker Compose installed.
-
-2. From the project root (where `docker-compose.yml` is located), run:
+## Run
 
 ```bash
-docker compose up --build
+docker compose up -d --build
 ```
 
-3. The Python app will start emitting logs every 2 seconds. Logs are sent via OTLP
-   to the OTel Collector, which forwards them to Loki.
+## Debug
 
-## Access Grafana
+Collector (shows what it receives + exports, via `debug` exporter):
 
-- URL: http://localhost:3000
-- Default user: `admin`
-- Default password: `admin` (as set in docker-compose)
+```bash
+docker compose logs -f otel-collector
+```
 
-### Configure Loki in Grafana
+App logs:
 
-1. Log in to Grafana.
-2. Go to **Configuration → Data sources → Add data source**.
-3. Select **Loki**.
-4. Set URL to: `http://loki:3100`
-5. Click **Save & test**.
+```bash
+docker compose logs -f app
+```
 
-## Query Logs
+## Grafana
 
-In Grafana **Explore** view:
+Open: http://localhost:3000  
+Login: admin / admin
 
-1. Select the Loki data source.
-2. Use a query like:
+Explore → Loki.
+
+### Queries that should work
+
+All logs:
+
+```logql
+{}
+```
+
+By service (note: Loki converts `service.name` to `service_name` label):
 
 ```logql
 {service_name="python-otel-logs-demo"}
 ```
 
-You should see log lines emitted by the Python app, with labels derived from
-OpenTelemetry resource attributes.
+By environment (from `service.environment` → `service_environment`):
 
-## Stopping the Demo
-
-Press `Ctrl+C` in the terminal running:
-
-```bash
-docker compose up --build
+```logql
+{service_environment="dev"}
 ```
 
-Then optionally run:
+By custom label (from log attribute `custom_key`, promoted via `loki.attribute.labels`):
+
+```logql
+{custom_key="demo"}
+```
+
+## Why this works
+
+The Loki exporter supports **hint attributes** to decide what becomes a Loki label:
+
+- `loki.resource.labels`: which resource attributes to promote to labels
+- `loki.attribute.labels`: which log attributes to promote to labels
+
+This avoids deprecated exporter-side label mapping and prevents config decode errors.
+
+## Stop
 
 ```bash
 docker compose down
 ```
-
-to stop and remove containers.
