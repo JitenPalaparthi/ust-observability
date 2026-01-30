@@ -1,0 +1,1 @@
+Use otel collector to configure all these components like loki, promtail, prometheus , run grafana as a container to see all logs in loki and also metrics in prometheus
