@@ -1,0 +1,455 @@
+2026-01-29 19:03:13,566 level=INFO msg=[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.6:8000
+2026-01-29 19:03:13,566 level=INFO msg=[33mPress CTRL+C to quit[0m
+2026-01-29 19:03:23,215 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:03:23] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:03:28,223 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:03:28] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:03:33,223 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:03:33] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:03:38,225 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:03:38] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:03:42,860 level=INFO msg=hello called
+2026-01-29 19:03:42,962 level=INFO msg=142.251.222.219 - - [29/Jan/2026 19:03:42] "GET / HTTP/1.1" 200 -
+2026-01-29 19:03:43,223 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:03:43] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:03:44,905 level=INFO msg=hello called
+2026-01-29 19:03:45,008 level=INFO msg=142.251.222.219 - - [29/Jan/2026 19:03:45] "GET / HTTP/1.1" 200 -
+2026-01-29 19:03:45,456 level=INFO msg=hello called
+2026-01-29 19:03:45,562 level=INFO msg=142.251.222.219 - - [29/Jan/2026 19:03:45] "GET / HTTP/1.1" 200 -
+2026-01-29 19:03:45,831 level=INFO msg=hello called
+2026-01-29 19:03:45,936 level=INFO msg=142.251.222.219 - - [29/Jan/2026 19:03:45] "GET / HTTP/1.1" 200 -
+2026-01-29 19:03:46,047 level=INFO msg=hello called
+2026-01-29 19:03:46,149 level=INFO msg=142.251.222.219 - - [29/Jan/2026 19:03:46] "GET / HTTP/1.1" 200 -
+2026-01-29 19:03:46,284 level=INFO msg=hello called
+2026-01-29 19:03:46,390 level=INFO msg=142.251.222.219 - - [29/Jan/2026 19:03:46] "GET / HTTP/1.1" 200 -
+2026-01-29 19:03:46,502 level=INFO msg=hello called
+2026-01-29 19:03:46,608 level=INFO msg=142.251.222.219 - - [29/Jan/2026 19:03:46] "GET / HTTP/1.1" 200 -
+2026-01-29 19:03:46,708 level=INFO msg=hello called
+2026-01-29 19:03:46,810 level=INFO msg=142.251.222.219 - - [29/Jan/2026 19:03:46] "GET / HTTP/1.1" 200 -
+2026-01-29 19:03:48,222 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:03:48] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:03:53,225 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:03:53] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:03:58,221 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:03:58] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:04:03,222 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:04:03] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:04:08,219 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:04:08] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:04:13,226 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:04:13] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:04:18,217 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:04:18] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:04:23,220 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:04:23] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:04:28,224 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:04:28] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:04:33,221 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:04:33] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:04:38,223 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:04:38] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:04:43,221 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:04:43] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:04:48,222 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:04:48] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:04:53,220 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:04:53] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:04:58,222 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:04:58] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:05:03,221 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:05:03] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:05:08,221 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:05:08] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:05:13,217 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:05:13] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:05:18,225 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:05:18] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:05:23,216 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:05:23] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:05:28,222 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:05:28] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:05:33,221 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:05:33] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:05:38,224 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:05:38] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:05:43,222 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:05:43] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:05:48,222 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:05:48] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:05:53,225 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:05:53] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:05:58,223 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:05:58] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:06:03,226 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:06:03] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:06:08,222 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:06:08] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:06:13,220 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:06:13] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:06:18,218 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:06:18] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:06:23,218 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:06:23] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:06:28,221 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:06:28] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:06:33,223 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:06:33] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:06:38,217 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:06:38] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:06:43,218 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:06:43] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:06:48,223 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:06:48] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:06:53,221 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:06:53] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:06:58,225 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:06:58] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:07:03,223 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:07:03] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:07:08,222 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:07:08] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:07:13,225 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:07:13] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:07:18,224 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:07:18] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:07:23,224 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:07:23] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:07:28,224 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:07:28] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:07:33,224 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:07:33] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:07:38,223 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:07:38] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:07:43,227 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:07:43] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:07:48,222 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:07:48] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:07:53,224 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:07:53] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:07:58,225 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:07:58] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:08:03,226 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:08:03] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:08:08,226 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:08:08] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:08:13,226 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:08:13] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:08:18,225 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:08:18] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:08:23,223 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:08:23] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:08:28,223 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:08:28] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:08:33,222 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:08:33] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:08:38,222 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:08:38] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:08:43,223 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:08:43] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:08:48,221 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:08:48] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:08:53,223 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:08:53] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:08:58,221 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:08:58] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:09:03,224 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:09:03] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:09:08,220 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:09:08] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:09:13,223 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:09:13] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:09:18,222 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:09:18] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:09:23,223 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:09:23] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:09:28,219 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:09:28] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:09:33,226 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:09:33] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:09:38,220 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:09:38] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:09:43,226 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:09:43] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:09:48,221 level=INFO msg=172.18.0.3 - - [29/Jan/2026 19:09:48] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:15:06,369 level=INFO service=py-app msg=starting on 0.0.0.0:8000, jaeger=jaeger:6831
+2026-01-29 19:15:06,371 level=INFO service=py-app msg=[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.6:8000
+2026-01-29 19:15:06,371 level=INFO service=py-app msg=[33mPress CTRL+C to quit[0m
+2026-01-29 19:15:12,382 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:15:12] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:15:17,380 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:15:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:15:22,384 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:15:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:15:27,384 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:15:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:15:32,385 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:15:32] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:15:37,384 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:15:37] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:15:42,383 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:15:42] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:15:47,385 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:15:47] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:15:52,383 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:15:52] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:15:57,260 level=INFO service=py-app msg=handling /
+2026-01-29 19:15:57,382 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:15:57] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:15:58,484 level=INFO service=py-app msg=142.251.222.219 - - [29/Jan/2026 19:15:58] "GET / HTTP/1.1" 200 -
+2026-01-29 19:15:59,932 level=INFO service=py-app msg=handling /
+2026-01-29 19:16:01,213 level=INFO service=py-app msg=142.251.222.219 - - [29/Jan/2026 19:16:01] "GET / HTTP/1.1" 200 -
+2026-01-29 19:16:01,779 level=INFO service=py-app msg=handling /
+2026-01-29 19:16:02,382 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:16:02] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:16:03,055 level=INFO service=py-app msg=142.251.222.219 - - [29/Jan/2026 19:16:03] "GET / HTTP/1.1" 200 -
+2026-01-29 19:16:07,384 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:16:07] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:16:12,386 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:16:12] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:16:17,380 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:16:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:16:22,383 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:16:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:16:27,381 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:16:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:16:32,382 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:16:32] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:16:37,384 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:16:37] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:16:42,383 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:16:42] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:16:47,383 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:16:47] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:16:52,387 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:16:52] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:16:57,385 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:16:57] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:17:02,386 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:17:02] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:17:07,381 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:17:07] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:17:12,383 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:17:12] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:17:17,383 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:17:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:17:22,381 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:17:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:17:27,382 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:17:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:17:32,383 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:17:32] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:17:37,385 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:17:37] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:17:42,383 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:17:42] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:17:47,383 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:17:47] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:17:52,382 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:17:52] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:17:57,383 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:17:57] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:18:02,385 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:18:02] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:18:07,385 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:18:07] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:18:12,382 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:18:12] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:18:17,386 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:18:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:18:22,381 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:18:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:18:27,385 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:18:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:18:32,384 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:18:32] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:18:37,383 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:18:37] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 19:18:42,386 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 19:18:42] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:46:04,865 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:46:04] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:46:09,864 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:46:09] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:46:14,868 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:46:14] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:46:19,866 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:46:19] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:46:24,868 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:46:24] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:46:29,865 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:46:29] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:53:42,154 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:53:42] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:53:47,152 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:53:47] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:53:52,151 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:53:52] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:53:57,152 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:53:57] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:54:02,157 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:54:02] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:54:07,156 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:54:07] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:54:12,147 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:54:12] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:54:17,146 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:54:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:54:22,155 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:54:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:54:27,150 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:54:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:54:32,155 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:54:32] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 20:54:37,148 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 20:54:37] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 21:19:35,847 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 21:19:35] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 21:19:40,842 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 21:19:40] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 21:19:45,843 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 21:19:45] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 21:19:50,841 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 21:19:50] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 21:19:55,844 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 21:19:55] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 21:20:00,838 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 21:20:00] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 22:47:48,491 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 22:47:48] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 22:47:53,493 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 22:47:53] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 22:47:58,486 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 22:47:58] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 22:48:03,486 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 22:48:03] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 22:48:08,486 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 22:48:08] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 22:48:13,486 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 22:48:13] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 22:48:18,491 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 22:48:18] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 22:48:23,491 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 22:48:23] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 22:48:28,487 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 22:48:28] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 22:48:33,489 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 22:48:33] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 22:48:38,490 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 22:48:38] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 22:48:43,492 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 22:48:43] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:36:07,874 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:36:07] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:36:12,876 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:36:12] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:36:17,870 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:36:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:36:22,874 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:36:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:36:27,872 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:36:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:36:32,875 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:36:32] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:36:37,873 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:36:37] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:36:42,873 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:36:42] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:36:47,871 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:36:47] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:36:52,877 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:36:52] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:36:57,879 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:36:57] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:37:02,873 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:37:02] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:45:40,568 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:45:40] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:45:45,567 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:45:45] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:45:50,571 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:45:50] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:45:55,568 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:45:55] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:46:00,572 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:46:00] "GET /metrics HTTP/1.1" 200 -
+2026-01-29 23:46:05,566 level=INFO service=py-app msg=172.18.0.3 - - [29/Jan/2026 23:46:05] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:16:49,071 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:16:49] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:16:54,071 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:16:54] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:16:59,067 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:16:59] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:17:04,068 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:17:04] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:17:09,069 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:17:09] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:17:14,075 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:17:14] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:17:19,067 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:17:19] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:17:24,072 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:17:24] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:17:29,065 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:17:29] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:17:34,066 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:17:34] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:17:39,074 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:17:39] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:17:44,070 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:17:44] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:30:30,124 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:30:30] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:30:35,133 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:30:35] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:30:40,129 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:30:40] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:30:45,127 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:30:45] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:30:50,128 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:30:50] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:30:55,132 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:30:55] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:47:45,043 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:47:45] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:47:50,041 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:47:50] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:47:55,050 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:47:55] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:48:00,044 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:48:00] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:48:05,049 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:48:05] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:48:10,047 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:48:10] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:56:24,601 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:56:24] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:56:29,598 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:56:29] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:56:34,607 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:56:34] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:56:39,603 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:56:39] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:56:44,603 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:56:44] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:56:49,601 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:56:49] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:56:54,598 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:56:54] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:56:59,606 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:56:59] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:57:04,602 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:57:04] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:57:09,607 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:57:09] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:57:14,606 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:57:14] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 00:57:19,603 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 00:57:19] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:14:56,598 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:14:56] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:15:01,601 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:15:01] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:15:06,595 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:15:06] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:15:11,904 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:15:11] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:15:16,595 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:15:16] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:15:21,596 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:15:21] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:15:26,595 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:15:26] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:15:31,596 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:15:31] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:15:36,602 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:15:36] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:15:41,601 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:15:41] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:15:46,596 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:15:46] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:15:51,599 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:15:51] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:32:51,510 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:32:51] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:32:56,511 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:32:56] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:33:01,510 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:33:01] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:33:06,512 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:33:06] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:33:11,512 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:33:11] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 01:33:16,514 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 01:33:16] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:25:55,150 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:25:55] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:26:00,152 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:26:00] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:26:05,154 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:26:05] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:26:10,148 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:26:10] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:26:15,148 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:26:15] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:26:20,147 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:26:20] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:52:56,564 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:52:56] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:53:01,571 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:53:01] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:53:06,571 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:53:06] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:53:11,564 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:53:11] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:53:16,570 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:53:16] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:53:21,571 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:53:21] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:53:26,566 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:53:26] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:53:31,572 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:53:31] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:53:36,564 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:53:36] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:53:41,567 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:53:41] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:53:46,568 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:53:46] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:53:51,567 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:53:51] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:55:11,698 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:55:11] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:55:16,695 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:55:16] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:55:21,700 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:55:21] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:55:26,695 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:55:26] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:55:31,697 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:55:31] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 02:55:36,697 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 02:55:36] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:13:51,947 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:13:51] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:13:56,948 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:13:56] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:14:01,951 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:14:01] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:14:06,948 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:14:06] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:14:11,952 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:14:11] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:14:16,948 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:14:16] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:15:41,570 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:15:41] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:15:46,564 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:15:46] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:15:51,569 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:15:51] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:15:56,568 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:15:56] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:16:01,561 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:16:01] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:16:06,561 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:16:06] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:16:11,561 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:16:11] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:16:16,561 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:16:16] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:16:21,558 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:16:21] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:16:26,586 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:16:26] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:16:31,560 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:16:31] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:16:36,566 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:16:36] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:46:07,209 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:46:07] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:46:12,209 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:46:12] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:46:17,211 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:46:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:46:22,209 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:46:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:46:27,216 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:46:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:46:32,209 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:46:32] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:46:37,208 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:46:37] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:46:42,539 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:46:42] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:46:47,225 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:46:47] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:46:52,210 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:46:52] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:46:57,209 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:46:57] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 03:47:02,211 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 03:47:02] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:04:53,335 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:04:53] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:04:58,330 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:04:58] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:05:03,327 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:05:03] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:05:08,332 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:05:08] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:05:13,328 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:05:13] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:05:18,328 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:05:18] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:05:23,331 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:05:23] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:05:28,326 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:05:28] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:05:33,327 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:05:33] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:05:38,323 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:05:38] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:05:43,334 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:05:43] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:05:48,325 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:05:48] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:05:53,333 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:05:53] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:05:58,330 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:05:58] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:06:03,325 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:06:03] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:06:08,328 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:06:08] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:06:13,328 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:06:13] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:06:18,329 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:06:18] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 04:06:23,328 level=INFO service=py-app msg=172.18.0.3 - - [30/Jan/2026 04:06:23] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:15:49,947 level=INFO service=py-app msg=starting on 0.0.0.0:8000, jaeger=jaeger:6831
+2026-01-30 06:15:49,957 level=INFO service=py-app msg=[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.18.0.6:8000
+2026-01-30 06:15:49,958 level=INFO service=py-app msg=[33mPress CTRL+C to quit[0m
+2026-01-30 06:15:57,908 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:15:57] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:16:02,900 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:16:02] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:16:07,899 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:16:07] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:16:12,902 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:16:12] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:16:17,359 level=INFO service=py-app msg=handling /work
+2026-01-30 06:16:17,375 level=INFO service=py-app msg=142.251.43.59 - - [30/Jan/2026 06:16:17] "GET /work HTTP/1.1" 200 -
+2026-01-30 06:16:17,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:16:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:16:19,466 level=INFO service=py-app msg=handling /work
+2026-01-30 06:16:19,483 level=INFO service=py-app msg=142.251.43.59 - - [30/Jan/2026 06:16:19] "GET /work HTTP/1.1" 200 -
+2026-01-30 06:16:20,017 level=INFO service=py-app msg=handling /work
+2026-01-30 06:16:20,033 level=INFO service=py-app msg=142.251.43.59 - - [30/Jan/2026 06:16:20] "GET /work HTTP/1.1" 200 -
+2026-01-30 06:16:20,563 level=INFO service=py-app msg=handling /work
+2026-01-30 06:16:20,579 level=INFO service=py-app msg=142.251.43.59 - - [30/Jan/2026 06:16:20] "GET /work HTTP/1.1" 200 -
+2026-01-30 06:16:21,038 level=INFO service=py-app msg=handling /work
+2026-01-30 06:16:21,055 level=INFO service=py-app msg=142.251.43.59 - - [30/Jan/2026 06:16:21] "GET /work HTTP/1.1" 200 -
+2026-01-30 06:16:22,909 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:16:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:16:27,901 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:16:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:16:32,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:16:32] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:16:37,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:16:37] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:16:42,907 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:16:42] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:16:47,901 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:16:47] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:16:52,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:16:52] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:16:57,937 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:16:57] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:17:02,903 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:17:02] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:17:08,214 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:17:08] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:17:12,907 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:17:12] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:17:17,908 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:17:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:17:22,906 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:17:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:17:27,903 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:17:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:17:32,906 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:17:32] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:17:37,903 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:17:37] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:17:42,921 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:17:42] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:17:48,172 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:17:48] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:17:52,907 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:17:52] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:17:58,094 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:17:58] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:18:02,908 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:18:02] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:18:07,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:18:07] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:18:12,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:18:12] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:18:17,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:18:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:18:22,906 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:18:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:18:27,957 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:18:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:18:32,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:18:32] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:18:37,908 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:18:37] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:18:42,902 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:18:42] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:18:47,901 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:18:47] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:18:53,397 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:18:53] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:18:57,937 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:18:57] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:19:02,912 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:19:02] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:19:07,907 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:19:07] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:19:13,515 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:19:13] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:19:17,902 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:19:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:19:22,905 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:19:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:19:27,905 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:19:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:19:32,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:19:32] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:19:37,903 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:19:37] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:19:42,906 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:19:42] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:19:47,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:19:47] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:19:52,903 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:19:52] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:19:57,902 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:19:57] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:20:02,905 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:20:02] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:20:07,906 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:20:07] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:20:12,905 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:20:12] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:20:17,907 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:20:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:20:22,907 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:20:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:20:27,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:20:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:20:32,902 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:20:32] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:20:37,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:20:37] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:20:42,905 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:20:42] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:20:47,902 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:20:47] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:20:52,907 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:20:52] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:20:57,903 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:20:57] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:21:02,903 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:21:02] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:21:07,902 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:21:07] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:21:12,905 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:21:12] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:21:17,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:21:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:21:22,902 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:21:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:21:27,917 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:21:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:21:32,911 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:21:32] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:21:37,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:21:37] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:21:42,902 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:21:42] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:21:48,159 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:21:48] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:21:52,902 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:21:52] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:21:57,907 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:21:57] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:22:02,910 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:22:02] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:22:07,901 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:22:07] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:22:12,906 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:22:12] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:22:17,906 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:22:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:22:22,905 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:22:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:22:27,903 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:22:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:22:32,901 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:22:32] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:22:37,903 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:22:37] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:22:42,902 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:22:42] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:22:47,903 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:22:47] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:22:52,901 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:22:52] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:22:57,902 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:22:57] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:23:02,902 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:23:02] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:23:07,906 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:23:07] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:23:12,899 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:23:12] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:23:17,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:23:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:23:22,902 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:23:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:23:27,961 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:23:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:23:32,929 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:23:32] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:23:37,900 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:23:37] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:23:42,900 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:23:42] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:23:47,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:23:47] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:23:52,906 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:23:52] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:23:57,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:23:57] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:24:02,912 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:24:02] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:24:07,904 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:24:07] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:24:12,903 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:24:12] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:24:17,906 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:24:17] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:24:22,906 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:24:22] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:24:27,907 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:24:27] "GET /metrics HTTP/1.1" 200 -
+2026-01-30 06:24:32,907 level=INFO service=py-app msg=172.18.0.4 - - [30/Jan/2026 06:24:32] "GET /metrics HTTP/1.1" 200 -
