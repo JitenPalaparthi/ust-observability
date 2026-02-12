@@ -1,0 +1,12 @@
+groups:
+- name: demo-alerts
+  rules:
+  - alert: DemoHighErrorRate
+    expr: rate(demo_errors_total[1m]) > 0
+    for: 30s
+    labels:
+      severity: warning
+    annotations:
+      summary: "Demo errors detected"
+      description: "demo_errors_total is increasing (rate over 1m > 0)."
+      runbook: "Check app logs; this is a demo alert."
